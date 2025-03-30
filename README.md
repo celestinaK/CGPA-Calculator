@@ -59,3 +59,25 @@ C = 2.0
 D = 1.0
 
 F = 0.0
+
+# Collect User Input
+We use cin and getline() to take input:
+
+Number of courses
+
+For each course:
+
+Course name
+
+Grade (A-F)
+
+# Credit hours
+Calculate Total Grade Points & Credits
+For each course:
+
+Convert letter grade to point using the function
+
+Multiply point × credit hours
+
+Accumulate totals
+We store this data in vectors for flexibility:
