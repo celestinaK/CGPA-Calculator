@@ -1,0 +1,68 @@
+#include <iostream>
+#include <iomanip>  // For formatting
+#include <string>
+#include <vector>
+
+using namespace std;
+
+// Function to convert grade letter to grade point
+float gradeToPoint(string grade) {
+    if (grade == "A" || grade == "a") return 4.0;
+    else if (grade == "B" || grade == "b") return 3.0;
+    else if (grade == "C" || grade == "c") return 2.0;
+    else if (grade == "D" || grade == "d") return 1.0;
+    else return 0.0; // F or invalid
+}
+
+int main() {
+    int numCourses;
+    cout << "Enter number of courses: ";
+    cin >> numCourses;
+
+    vector<string> courseNames(numCourses);
+    vector<string> courseGrades(numCourses);
+    vector<int> creditHours(numCourses);
+
+    float totalGradePoints = 0.0;
+    int totalCredits = 0;
+
+    // Collect course information
+    for (int i = 0; i < numCourses; ++i) {
+        cout << "\nEnter name of course " << i + 1 << ": ";
+        cin.ignore(); // To clear newline in input buffer
+        getline(cin, courseNames[i]);
+
+        cout << "Enter grade received (A/B/C/D/F): ";
+        cin >> courseGrades[i];
+
+        cout << "Enter credit hours for " << courseNames[i] << ": ";
+        cin >> creditHours[i];
+
+        float gradePoint = gradeToPoint(courseGrades[i]);
+        totalGradePoints += gradePoint * creditHours[i];
+        totalCredits += creditHours[i];
+    }
+
+    // Calculate CGPA
+    float cgpa = totalGradePoints / totalCredits;
+
+    // Display Result
+    cout << "\n========== CGPA REPORT ==========\n";
+    cout << left << setw(20) << "Course" 
+         << setw(10) << "Grade" 
+         << setw(15) << "Credit Hours" << endl;
+    cout << "----------------------------------------\n";
+
+    for (int i = 0; i < numCourses; ++i) {
+        cout << left << setw(20) << courseNames[i]
+             << setw(10) << courseGrades[i]
+             << setw(15) << creditHours[i] << endl;
+    }
+
+    cout << "\nTotal Credits: " << totalCredits << endl;
+    cout << "Total Grade Points: " << totalGradePoints << endl;
+    cout << fixed << setprecision(2);
+    cout << "Your CGPA is: " << cgpa << endl;
+
+    return 0;
+}
