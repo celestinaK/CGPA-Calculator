@@ -1,0 +1,135 @@
+Enter number of courses: 3
+
+Enter name of course 1: Introduction To Research
+Enter grade received (A/B/C/D/F): A
+Enter credit hours for Introduction To Research: 3
+
+Enter name of course 2: Thesis
+Enter grade received (A/B/C/D/F): A
+Enter credit hours for Thesis: 3
+Enter grade received (A/B/C/D/F): A
+Enter credit hours for Thesis: 3
+
+Enter name of course 3: Programming Langauge
+Enter grade received (A/B/C/D/F): A
+Enter credit hours for Programming Langauge: 3
+Enter grade received (A/B/C/D/F): A
+Enter credit hours for Thesis: 3
+
+Enter name of course 3: Programming Langauge
+Enter grade received (A/B/C/D/F): A
+Enter grade received (A/B/C/D/F): A
+Enter credit hours for Thesis: 3
+
+Enter name of course 3: Programming Langauge
+Enter grade received (A/B/C/D/F): A
+Enter credit hours for Thesis: 3
+
+Enter credit hours for Thesis: 3
+
+Enter name of course 3: Programming Langauge
+
+Enter name of course 3: Programming Langauge
+Enter grade received (A/B/C/D/F): A
+Enter name of course 3: Programming Langauge
+Enter grade received (A/B/C/D/F): A
+Enter grade received (A/B/C/D/F): A
+Enter credit hours for Programming Langauge: 3
+
+Enter credit hours for Programming Langauge: 3
+
+
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+Thesis              A         3
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+Thesis              A         3
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+========== CGPA REPORT ==========
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+Thesis              A         3
+Programming LangaugeA         3
+
+Total Credits: 9
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+Thesis              A         3
+Programming LangaugeA         3
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+Thesis              A         3
+========== CGPA REPORT ==========
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+Course              Grade     Credit Hours
+----------------------------------------
+Introduction To ResearchA         3
+Thesis              A         3
+Programming LangaugeA         3
+
+Introduction To ResearchA         3
+Thesis              A         3
+Programming LangaugeA         3
+
+Thesis              A         3
+Programming LangaugeA         3
+
+Total Credits: 9
+Programming LangaugeA         3
+
+Total Credits: 9
+Total Credits: 9
+Total Grade Points: 36
+Total Grade Points: 36
+Your CGPA is: 4.00
